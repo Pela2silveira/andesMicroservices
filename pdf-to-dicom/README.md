@@ -1,6 +1,6 @@
 # pdf-to-dicom
  
-Microservicio para transformar un archivo pdf y metadata en un DICOM. Utiliza el método pdf2dcm de la librería DCMTK(https://github.com/DCMTK/dcmtk) a través del contenedor darthunix/dcmtk. Luego lo sirve por http en una pequeña aplicacion Go. Este tipo de funcionalidad es particularment util para transformar cualquier archivo en formato PDF y almacenarlo en un Servidor PACS a través del método DICOM STOW-RS.
+Microservicio para transformar un archivo pdf y metadata en un DICOM. Utiliza el método pdf2dcm de la librería DCMTK(https://github.com/DCMTK/dcmtk) a través del contenedor darthunix/dcmtk. Luego lo sirve por http en una pequeña aplicacion Go. Este tipo de funcionalidad es particularmente util para transformar cualquier archivo en formato PDF y almacenarlo en un Servidor PACS a través del método DICOM STOW-RS.
 
 ### Desarrollo
 
